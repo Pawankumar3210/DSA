@@ -1,3 +1,5 @@
+#Note to myself: I didn't solve this. I just was testing LeetCode's connection with GitHub using LeetSync and it was successful! Can't wait to begin my LeetCode journey soon....
+
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         # Dictionary to store the number as the key and its index as the value
@@ -14,3 +16,4 @@ class Solution:
             
             # Otherwise, store the current number and its index in the dictionary
             num_to_index[num] = index
+
